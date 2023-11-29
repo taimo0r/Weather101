@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Weather101</string>
+
+    <string name="hello_blank_fragment">Today Weather</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="key_full_name">Full Name</string>
+    <string name="key_gender">Gender</string>
+    <string name="key_email">Email</string>
+    <string name="key_phone_number">Phone Number</string>
+    <string name="full_name_title">Full Name</string>
+    <string name="gender_title">Gender</string>
+    <string name="email_title">Email</string>
+    <string name="phone_number_title">Phone Number</string>
+
+</resources>

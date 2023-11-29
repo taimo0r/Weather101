@@ -1,0 +1,73 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory app:title="Settings"
+        app:iconSpaceReserved="false">
+
+        <ListPreference
+            app:defaultValue="celsius"
+            app:entries="@array/temp_unit_entries"
+            app:entryValues="@array/temp_unit_values"
+            app:key="key_temp_unit"
+            app:title="Temperature Unit"
+            android:icon="@drawable/feels_like_icon"
+            app:useSimpleSummaryProvider="true"/>
+
+        <ListPreference
+            app:defaultValue="mb"
+            app:entries="@array/pressure_unit_entries"
+            app:entryValues="@array/pressure_unit_values"
+            app:key="key_pressure_unit"
+            app:title="Pressure Unit"
+            android:icon="@drawable/pressure_icon"
+            app:useSimpleSummaryProvider="true"/>
+
+        <ListPreference
+            app:title="Wind Speed Unit"
+            android:icon="@drawable/wind_speed_icon"
+            app:defaultValue="m/s"
+            app:entries="@array/wind_unit_entries"
+            app:entryValues="@array/wind_unit_values"
+            app:key="key_wind_unit"
+            app:useSimpleSummaryProvider="true"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="Personal"
+        app:iconSpaceReserved="false">
+
+        <EditTextPreference
+            app:key="key_full_name"
+            app:title="@string/full_name_title"
+            app:useSimpleSummaryProvider="true"
+            app:selectable="true"
+            app:iconSpaceReserved="false"/>
+
+        <ListPreference
+            app:defaultValue="male"
+            app:entries="@array/gender_entries"
+            app:entryValues="@array/gender_values"
+            app:key="key_gender"
+            app:title="@string/gender_title"
+            app:useSimpleSummaryProvider="true"
+            app:iconSpaceReserved="false"/>
+
+        <EditTextPreference
+            app:key="key_email"
+            app:title="@string/email_title"
+            app:useSimpleSummaryProvider="true"
+            app:selectable="true"
+            app:iconSpaceReserved="false"/>
+
+        <EditTextPreference
+            app:key="key_phone_number"
+            app:title="@string/phone_number_title"
+            app:useSimpleSummaryProvider="true"
+            app:selectable="true"
+            app:iconSpaceReserved="false"/>
+
+
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
