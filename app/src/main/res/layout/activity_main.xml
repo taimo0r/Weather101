@@ -8,7 +8,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".Activities.MainActivity"
     android:id="@+id/root_view"
-    android:background="@drawable/wallpaper1">
+    android:background="@drawable/background_wallpaper">
 
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
